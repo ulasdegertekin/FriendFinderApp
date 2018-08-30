@@ -1,25 +1,24 @@
 {
-  "name": "friendfinder",
+  "name": "friendfinderapp",
   "version": "1.0.0",
-  "description": "\"Best friend Finder\"",
+  "description": "",
   "main": "server.js",
-  "dependencies": {
-    "node": "^10.9.0",
-    "package": "^1.0.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ulasdegertekin/FriendFinder.git"
+    "url": "git+https://github.com/ulasdegertekin/FriendFinderApp.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ulasdegertekin/FriendFinder/issues"
+    "url": "https://github.com/ulasdegertekin/FriendFinderApp/issues"
   },
-  "homepage": "https://github.com/ulasdegertekin/FriendFinder#readme"
+  "homepage": "https://github.com/ulasdegertekin/FriendFinderApp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
 }
